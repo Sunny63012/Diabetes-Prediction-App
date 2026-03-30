@@ -10,7 +10,6 @@ import pickle
 import streamlit as st
 import pandas
 import os
-import sklearn
 model_path = os.path.join(os.path.dirname(__file__), 'trained_model.sav')
 loaded_model = pickle.load(open(model_path, 'rb'))
 #loaded_model = pickle.load(open('trained_model.sav', 'rb'))
